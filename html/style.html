@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>放大镜</title>
+			<link rel="stylesheet" type="text/css" href="../css/style.css" />
+			<link rel="stylesheet" type="text/css" href="../second/style.css" />
+			
+		<style>
+			@font-face {font-family: "iconfont";
+					  src: url('../iconfont/iconfont.eot'); /* IE9*/
+					  src: url('../iconfont/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+					  url('../iconfont/iconfont.woff') format('woff'),
+					  url('../iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+					  url('../iconfont/iconfont.svg') format('svg'); /* iOS 4.1- */
+					}
+					
+					.iconfont {
+						margin-right: 8px;
+					  font-family:"iconfont" !important;
+					  font-size:12px;
+					  font-style:normal;
+					  -webkit-font-smoothing: antialiased;
+					  -moz-osx-font-smoothing: grayscale;
+					}
+					
+				#shop{
+					width: 500px;
+					height: 150px;
+					/*background: red;*/
+					float: left;
+					margin-top:50px ;
+					border: 1px solid #E4E4E4;
+				}
+				#p{
+					width: 32px;
+					overflow: hidden;
+				}
+				span{
+					width: 30px;
+					height: 30px;
+					border: 1px solid #999999;
+					display: block;
+					text-align: center;
+					line-height: 30px;
+					margin: 5px;
+					font-size: 22px;
+				}
+				button{
+					width: 150px;
+					height: 50px;
+					background: #FF6700;
+					text-align: center;
+					line-height: 50px;
+					border: none;
+					font-size: 22px;
+					color: white;
+					font-family: "宋体";
+					float: left;
+				}
+		</style>
+		<script src="../js/second.js"></script>
+	</head>
+		<div id="nav">
+			<ul id="nav-left">
+				<li class="nav-left-li"><a href="#">首页</a></li>
+				<li class="nav-left-li"><a href="#">华为官网</a></li>
+				<li class="nav-left-li"><a href="#">荣耀官网</a></li>
+				<li class="nav-left-li"><a href="#">花粉俱乐部</a></li>
+				<li class="nav-left-li"><a href="#">帮助中心</a></li>
+				<li class="nav-left-li"><a href="#">V码(优购码)</a></li>
+				<li class="nav-left-li"><a href="#">企业购</a></li>
+				<li class="nav-left-li"><a href="#">Select Region</a></li>
+				<li class="nav-left-li" id="corner"><a href="#" id="corner-menu">更多精彩</a>
+					<ul id="secondary menu">
+						<li><a href="#">EMUL</a></li>
+						<li><a href="#">应用市场</a></li>
+						<li><a href="#">华为终端云空间</a></li>
+						<li><a href="#">开发者联盟</a></li>
+						<li id="lastlist"><a href="#"><img src="../images/qrcode_vmall_new_app01.png"></a>
+							<p>扫一扫,  <a href="#">下载客户端</a></p>
+							
+						</li>
+						
+					</ul>	
+				</li>				
+			</ul>
+			<ul id="nav-right">
+				<li id="nav-right-list"><a href="#">请登陆</a></li>
+				<li id="nav-right-list"><a href="#">注册</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#" id="shoplist"><i class="iconfont">&#xe899;</i>购物车</a></li>	
+				<div id="box"><span id="sp">您的购物车是空的，赶紧抢购吧！</span></div>
+			</ul>
+		</div>
+		
+		<!--logo部分-->
+		<div id="header">
+			<h1><a href="#"><img src="../images/logo20170801113951.png"></a></h1>
+			<ul>
+				<li><a href="#">华为专区</a></li>
+				<li><a href="#">荣耀专区</a></li>
+				<li><a href="#">HUAWEI P20</a></li>
+				<li><a href="#">荣耀9</a></li>
+				<li><a href="#">华为畅想8</a></li>
+				<li><a href="#">荣耀好货</a></li>								
+			</ul>
+			<div class="right">
+				<form method="get" onsubmit="">
+					<input type="text" class="search-1"/>
+					<input type="button" value="&#xe899;" class="search-2 iconfont"/>
+				</form>
+				<div class="letter">
+					<a class="a-1" href="#">HUAWEI P20</a>
+					<a class="a-2" href="#">荣耀V10</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="hr-10"></div>
+		
+		<div class="g">
+			<div class="breadcrumb-area">
+				<a href="#">首页</a>
+				<span>&nbsp;>&nbsp;</span>
+				<a href="#">手机</a>
+				<span>&nbsp;>&nbsp;</span>
+				<a href="#">荣耀</a>
+				<span>&nbsp;>&nbsp;</span>
+				<i id="break-pro-name">荣耀9青春版 全球通标配版(海鸥灰)</i>
+			</div>
+			<div class="product clearfix">
+				<div id="product-gallery">
+					
+					<div id="product-div">
+						
+					 <div id="product-relative">
+					 	<img id="img-1" src="../open/428_428_1513329848684.jpg"/><!--小图区-->
+					 	<div id="od1"></div><!--两个遮罩层 -->
+					 	<div id="od2"></div>
+					 </div>
+					 
+					 <div class="product-box">
+					 	<img id="img-2" src="../open/800_800_1513329848684.jpg" />
+					 </div>
+					 
+					 </div>
+					 <!--选项卡-->
+					 <ul id="product-nav">
+					 	<li><a href="#"><img class="img-2" src="../open/78_78_1513329848684.jpg"></a></li>
+					 	<li><a href="#"><img class="img-2" src="../open/78_78_1513329847980.jpg"></a></li>
+					 	<li><a href="#"><img class="img-2" src="../open/78_78_1513329851527.jpg"></a></li>
+					 	<li><a href="#"><img class="img-2" src="../open/78_78_1513329850509.jpg"></a></li>
+					 	<li><a href="#"><img class="img-2" src="../open/78_78_1513329849792.jpg"</a></li>
+					 </ul>
+					 
+					 <div id="shop">
+						<p id="num">
+							<span id="osp1">+</span>
+							<span id="osp2">1</span>
+							<span id="osp3">-</span>
+						</p>
+						<button id="obtn">加入购物车</button>			
+					</div>
+							 
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			
+		
+		
+		
+		
+	<body>
+	</body>
+</html>
+<script>
+	var oShop = document.getElementById("shop");
+	var oSp1 = document.getElementById("osp1");
+	var oSp2 = document.getElementById("osp2");
+	var oSp3 = document.getElementById("osp3");
+	var oBtn = document.getElementById("obtn");
+	oSp1.onclick = function(){
+		var num=parseInt(oSp2.innerHTML);
+		num++;
+		oSp2.innerHTML=num;
+		//alert(num);
+	}
+	oSp3.onclick = function(){
+		var num=parseInt(oSp2.innerHTML);
+		num--;
+		oSp2.innerHTML=num;
+		//alert(num);
+	}
+</script>
